@@ -10,8 +10,8 @@
         </div>
         <br />
         <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-            <button type="button" class="btn btn-danger">Back</button>
-            <button type="button" class="btn btn-success">Login</button>
+            <button type="button" class="btn btn-danger" onclick="location.href='Default.aspx';">Back</button>
+            <button type="button" class="btn btn-success" onclick="location.href='Default.aspx';">Login</button>
         </div>
     </div>
 </asp:Content>

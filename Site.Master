@@ -17,14 +17,14 @@
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Technical Homework 4</a>
+                <a class="navbar-brand" href="Default.aspx">Technical Homework 4</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="/">Home</a>
-                        <asp:TextBox BackColor="Black" ForeColor="White" CssClass="textTop" runat="server" ID="TextBox1"></asp:TextBox><asp:Button runat="server" ID="Button1" Text="Search" /></li>
+                        <a class="nav-link active" aria-current="page" href="Default.aspx">Home</a>
+                        <asp:TextBox BackColor="Black" ForeColor="White" CssClass="textTop" runat="server" ID="TextBox1"></asp:TextBox><asp:Button runat="server" ID="btnSearch" Text="Search" OnClick="btnSearch_Click" />
                         <a class="nav-link" href="Account.aspx">Account</a>
                     </div>
                 </div>
